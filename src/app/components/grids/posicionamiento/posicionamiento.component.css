@@ -1,0 +1,31 @@
+.contenedor{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.contenedor .item{
+    background:  #427fbd ;
+
+    /* Forma mas explicita para establecer las 
+    medidas que deseamos que ocupen dentro de nuestro Grid */
+
+    /* grid-column-start: 1 ;
+    grid-column-end: 4; */
+
+    /* Forma corta para declarar el espacio de columnas
+     que ocupara el item dentro del Grid*/
+
+    /* grid-column: 1 / 4; */
+
+    /* Con el elemento Span, sirve para declarar el 
+    numero de columnas que deseamos que ocupe en el espacio
+    sin necesidad de conocer el numero de columnas */
+
+    grid-column: span 4;
+
+    grid-row: span 3;
+
+
+    
+}

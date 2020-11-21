@@ -1,0 +1,17 @@
+.contenedor{
+    display: grid;
+    gap: 20px;
+    height: 700px;
+
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+
+    /* Tipo de alineacion para todo el contenido Horizontalmente */
+    justify-content: space-evenly;
+    /* start | end | space-evenly | stretch | space-around | space-between */
+
+
+     /* Tipo de alineacion para todo el contenido Verticalmente */
+    align-content: space-evenly;
+    /* start | end | space-evenly | stretch | space-around | space-between */
+}

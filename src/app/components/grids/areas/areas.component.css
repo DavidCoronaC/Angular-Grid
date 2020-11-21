@@ -1,0 +1,41 @@
+.contenedor{
+    display: grid;
+    gap: 20px;
+
+    grid-template-areas: "header    header      header"
+                         "aside-1   contenido   aside-2"   
+                         "aside-1   widgets     aside-2"
+                         "footer    footer      footer";
+}
+
+.contenedor .header{
+    grid-area: header;
+}
+
+.contenedor .aside-1{
+    color: #fff;
+    background:  #1c4976;
+    grid-area: aside-1;
+}
+
+.contenedor .contenido{
+    color: #000;
+    background: #fff;
+    grid-area: contenido;
+}
+
+.contenedor .widgets{
+    grid-area: widgets;
+}
+
+.contenedor .aside-2{
+    color: #fff;
+    background:  #1c4976;
+    grid-area: aside-2;
+}
+
+.contenedor .footer{
+    color: #fff;
+    background:   #062442;
+    grid-area: footer;
+}
